@@ -1,0 +1,22 @@
+{
+  "name": "ngram",
+  "version": "1.0.0",
+  "description": "ngram",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "jest"
+  },
+  "author": "Lim Howe <limhowe1214@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/limhowe/ngram"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  }
+}
