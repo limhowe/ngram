@@ -15,5 +15,4 @@ test('should return punctuate space', () => {
   const gen = nGramGenerator(true);
   const result = gen('show me  the code');
   expect(result.length).toBe(10);
-  expect(gen()).toEqual([]);
 });
